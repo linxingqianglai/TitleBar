@@ -2,7 +2,231 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.titlebar.MainActivity" >
+    tools:context="com.example.titlebar.MainActivity" >public class TitleView extends FrameLayout {
+	private TextView mBackBn;
+	private TextView mTitleBn;
+	private TextView mMenuBn;
+
+	/**
+	 * @param context
+	 */
+	public TitleView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param context
+	 * @param attrs
+	 */
+	public TitleView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO Auto-generated constructor stub
+		LayoutInflater.from(context).inflate(R.layout.view_title, this,true);
+		mBackBn=(TextView)findViewById(R.id.bn_back);
+		mTitleBn = (TextView)findViewById(R.id.tv_title);
+		mMenuBn  = (TextView)findViewById(R.id.bn_menu);
+		mBackBn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				((Activity)getContext()).finish();
+			}
+		});
+	}public class TitleView extends FrameLayout {
+	private TextView mBackBn;
+	private TextView mTitleBn;
+	private TextView mMenuBn;
+
+	/**
+	 * @param context
+	 */
+	public TitleView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param context
+	 * @param attrs
+	 */
+	public TitleView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO Auto-generated constructor stub
+		LayoutInflater.from(context).inflate(R.layout.view_title, this,true);
+		mBackBn=(TextView)findViewById(R.id.bn_back);
+		mTitleBn = (TextView)findViewById(R.id.tv_title);
+		mMenuBn  = (TextView)findViewById(R.id.bn_menu);
+		mBackBn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				((Activity)getContext()).finish();
+			}
+		});
+	}public class TitleView extends FrameLayout {
+	private TextView mBackBn;
+	private TextView mTitleBn;
+	private TextView mMenuBn;
+
+	/**
+	 * @param context
+	 */
+	public TitleView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param context
+	 * @param attrs
+	 */
+	public TitleView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO Auto-generated constructor stub
+		LayoutInflater.from(context).inflate(R.layout.view_title, this,true);
+		mBackBn=(TextView)findViewById(R.id.bn_back);
+		mTitleBn = (TextView)findViewById(R.id.tv_title);
+		mMenuBn  = (TextView)findViewById(R.id.bn_menu);
+		mBackBn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				((Activity)getContext()).finish();
+			}
+		});
+	}public class TitleView extends FrameLayout {
+	private TextView mBackBn;
+	private TextView mTitleBn;
+	private TextView mMenuBn;
+
+	/**
+	 * @param context
+	 */
+	public TitleView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param context
+	 * @param attrs
+	 */
+	public TitleView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO Auto-generated constructor stub
+		LayoutInflater.from(context).inflate(R.layout.view_title, this,true);
+		mBackBn=(TextView)findViewById(R.id.bn_back);
+		mTitleBn = (TextView)findViewById(R.id.tv_title);
+		mMenuBn  = (TextView)findViewById(R.id.bn_menu);
+		mBackBn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				((Activity)getContext()).finish();
+			}
+		});
+	}public class TitleView extends FrameLayout {
+	private TextView mBackBn;
+	private TextView mTitleBn;
+	private TextView mMenuBn;
+
+	/**
+	 * @param context
+	 */
+	public TitleView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param context
+	 * @param attrs
+	 */
+	public TitleView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO Auto-generated constructor stub
+		LayoutInflater.from(context).inflate(R.layout.view_title, this,true);
+		mBackBn=(TextView)findViewById(R.id.bn_back);
+		mTitleBn = (TextView)findViewById(R.id.tv_title);
+		mMenuBn  = (TextView)findViewById(R.id.bn_menu);
+		mBackBn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				((Activity)getContext()).finish();
+			}
+		});
+	}public class TitleView extends FrameLayout {
+	private TextView mBackBn;
+	private TextView mTitleBn;
+	private TextView mMenuBn;
+
+	/**
+	 * @param context
+	 */
+	public TitleView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param context
+	 * @param attrs
+	 */
+	public TitleView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO Auto-generated constructor stub
+		LayoutInflater.from(context).inflate(R.layout.view_title, this,true);
+		mBackBn=(TextView)findViewById(R.id.bn_back);
+		mTitleBn = (TextView)findViewById(R.id.tv_title);
+		mMenuBn  = (TextView)findViewById(R.id.bn_menu);
+		mBackBn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				((Activity)getContext()).finish();
+			}
+		});
+	}public class TitleView extends FrameLayout {
+	private TextView mBackBn;
+	private TextView mTitleBn;
+	private TextView mMenuBn;
+
+	/**
+	 * @param context
+	 */
+	public TitleView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param context
+	 * @param attrs
+	 */
+	public TitleView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO Auto-generated constructor stub
+		LayoutInflater.from(context).inflate(R.layout.view_title, this,true);
+		mBackBn=(TextView)findViewById(R.id.bn_back);
+		mTitleBn = (TextView)findViewById(R.id.tv_title);
+		mMenuBn  = (TextView)findViewById(R.id.bn_menu);
+		mBackBn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				((Activity)getContext()).finish();
+			}
+		});
+	}LayoutInflater.from(context).inflate(R.layout.view_title, this,true);LayoutInflater.from(context).inflate(R.layout.view_title, this,true);LayoutInflater.from(context).inflate(R.layout.view_title, this,true);LayoutInflater.from(context).inflate(R.layout.view_title, this,true);LayoutInflater.from(context).inflate(R.layout.view_title, this,true);LayoutInflater.from(context).inflate(R.layout.view_title, this,true);LayoutInflater.from(context).inflate(R.layout.view_title, this,true);Binary XML file line # : Error inflating class
 <com.example.titlebar.TitleView 
     android:id="@+id/title"
     android:layout_width="match_parent"

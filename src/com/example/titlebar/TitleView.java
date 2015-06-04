@@ -34,6 +34,14 @@ public class TitleView extends FrameLayout {
 	public TitleView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		// TODO Auto-generated constructor stub
+		/**
+		 * 下面的inflate中的this不能丢，他表示当前的TitlteView
+		 * 是R.layout.view_title的父控件，如果将其设置成null，那么表示R.layout.view_title并没有放入TitleView
+		 * ，LayoutInflater.from(context).inflate(R.layout.view_title, this,true);可以用
+		 * LayoutInflater.from(context).inflate(R.layout.view_title, this)表示，因为默认最后一个参数是true，
+		 * 表示父控件把子控件布局放入进来，同理知道，如果将true，那么父控件就没法和子控件布局连接起来。
+		 * 以上的几个结果就是会爆出Binary XML file line # : Error inflating class
+		 */
 		LayoutInflater.from(context).inflate(R.layout.view_title, this,true);
 		mBackBn=(TextView)findViewById(R.id.bn_back);
 		mTitleBn = (TextView)findViewById(R.id.tv_title);
